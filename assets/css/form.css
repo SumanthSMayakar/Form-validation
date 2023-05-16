@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+legend{
+    display: none;
+}
+body {
+
+    background: #f9f9f9;
+    font-size: 1em;
+}
+
+#wg{
+    display: inline;
+}
+
+#mg{
+    display: none;
+}
+
+.text{
+    margin: 10px;
+    color: #4c3E79; 
+    font-family: 'Lato', sans-serif
+}
+
+.card1 div{
+    padding: 10px;
+    margin: 10px;
+}
+
+input{
+    color: #999999;
+    font-family: 'Lato', sans-serif
+}
+
+.fn input{
+    width:110%;
+    height:70%;
+    margin: 5px;
+    border: solid 0.1mm rgb(134, 134, 137);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
+}
+
+.ln input{
+    width:110%;
+    height:70%;
+    margin: 5px;
+    border: solid 0.1mm rgb(134, 134, 137);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 3px;
+}
+
+.ae input{
+    width:110%;
+    height:70%;
+    margin: 5px;
+    border: solid 0.1mm rgb(134, 134, 137);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 3px;
+}
+
+.card2 div{
+    padding: 10px;
+    margin: 10px;
+}
+
+.mb input{
+    width:110%;
+    height:70%;
+    margin: 5px;
+    border: solid 0.1mm rgb(134, 134, 137);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 3px;
+}
+
+.em input{
+    width:110%;
+    height:70%;
+    margin: 5px;
+    border: solid 0.1mm rgb(134, 134, 137);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 3px;
+}
+#label{
+    display: inline;
+}
+
+.des{
+    padding: 5px;
+    
+}
+
+textarea{
+    border: solid 0.1mm rgb(134, 134, 137);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 3px;
+}
+
+.des p{
+    text-align: end;
+    color: lightgray;
+    
+}
+
+.card3 div{
+    padding: 10px;
+    margin: 0px 8px 0px 8px ;
+}
+
+.pa input{
+    width:110%;
+    height:70%;
+    margin: 5px;
+    border: solid 0.1mm rgb(134, 134, 137);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 3px;
+}
+
+.cp input{
+    width:110%;
+    height:70%;
+    margin: 5px;
+    border: solid 0.1mm rgb(134, 134, 137);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 3px;
+}
+
+.btn{
+    justify-content: center;
+    
+}
+
+.btn-rst, .btn-sub {
+    padding: 10px;
+    margin: 10px;
+    width: 120px;
+    border-radius: 40px;
+    border: solid 0.5mm #4c3E79;
+    font-family: 'Lato', sans-serif
+}
+
+.btn :hover{
+    background-color: #4c3E79 ;
+    color: #fff;
+}
+/* Error */
+.error {
+    color: crimson;
+}
+
+@media screen and (max-width:1024px){}
+
+@media screen and (max-width:724px){
+
+#wg{
+    display: none;
+}
+legend{
+    display: inline;
+}
+#mg{
+    display: inline;
+}
+#label{
+    display:none;
+}
+img{
+    width: 100%;
+}
+.text{
+    margin: 10px;
+    color: #4c3E79; 
+    font-family: 'Lato', sans-serif
+}
+
+.card1 div{
+    padding: 10px;
+    margin: 10px;
+}
+
+input{
+    color: #999999;
+    font-family: 'Lato', sans-serif
+}
+
+.fn input{
+    width:90%;
+    height:120%;
+    margin: 5px;
+    border: solid 0.1mm rgb(134, 134, 137);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
+}
+
+.ln input{
+    width:90%;
+    height:120%;
+    margin: 5px;
+    border: solid 0.1mm rgb(134, 134, 137);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 3px;
+}
+
+.ae input{
+    width:90%;
+    height:120%;
+    margin: 5px;
+    border: solid 0.1mm rgb(134, 134, 137);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 3px;
+}
+
+.card2 div{
+    padding: 10px;
+    margin: 10px;
+}
+
+.mb input{
+    width:90%;
+    height:120%;
+    margin: 5px;
+    border: solid 0.1mm rgb(134, 134, 137);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 3px;
+}
+
+.em input{
+    width:90%;
+    height:120%;
+    margin: 5px;
+    border: solid 0.1mm rgb(134, 134, 137);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 0, 0, 10, 0;
+}
+
+.des{
+    padding: 5px;
+    
+}
+
+textarea{
+    border: solid 0.1mm rgb(134, 134, 137);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 3px;
+   
+}
+
+.des p{
+    text-align: end;
+    color: lightgray;
+    
+}
+
+.card3 div{
+    padding: 10px;
+    margin: 0px 8px 0px 8px ;
+}
+
+.pa input{
+    width:90%;
+    height:120%;
+    margin: 5px;
+    border: solid 0.1mm rgb(134, 134, 137);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 3px;
+}
+
+.cp input{
+    width:90%;
+    height:120%;
+    margin: 5px;
+    border: solid 0.1mm rgb(134, 134, 137);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 3px;
+}
+
+.btn{
+    justify-content: center;
+    
+}
+
+.btn-rst, .btn-sub {
+    padding: 10px;
+    margin: 10px;
+    width: 120px;
+    border-radius: 40px;
+    border: solid 0.5mm #4c3E79;
+    font-family: 'Lato', sans-serif
+}
+
+.btn :hover{
+    background-color: #4c3E79 ;
+    color: #fff;
+}
+}
